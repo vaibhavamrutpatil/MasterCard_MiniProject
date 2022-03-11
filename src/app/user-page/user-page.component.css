@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(238, 236, 238);
+    margin: 0;
+    
+}
+
+h2{
+    background-color: rgb(224, 192, 168);
+    color: black;
+    padding: 10px;
+}
+td{
+    padding: 7px;
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+    border: solid rgb(196, 193, 193) 2px;
+    
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid forestgreen;
+}
+input:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+.button{
+    background-color: forestgreen;
+    color:#fff;
+    border: none;
+    padding: 3px
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px red;
+}
+
+.gen{
+    margin: -100px;
+}
+
+h1{
+    color: rgb(33, 12, 51);
+    padding-top: 10px;
+    text-align: center;
+}
